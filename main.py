@@ -7,7 +7,7 @@ from openpyxl import cell
 workbook = opx.load_workbook(filename = r'D:\User Files\Рабочий стол\timetable2.xlsx', data_only=True)
 sheet = workbook.get_sheet_by_name('Лист1')
 
-bot = telebot.TeleBot('1332247388:AAHOgMlyVv-JXMEha1hLZzAfZmGgQoGDCI4')
+bot = telebot.TeleBot('')
 
 userProfile = ''
 toSend = ''
